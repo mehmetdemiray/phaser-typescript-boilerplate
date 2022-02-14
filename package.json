@@ -1,0 +1,46 @@
+{
+  "name": "phaser-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "phaser typescript boilerplate",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehmetdemiray/phaser-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "phaser",
+    "typescript",
+    "phaser3"
+  ],
+  "author": "mehmet demiray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehmetdemiray/phaser-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mehmetdemiray/phaser-typescript-boilerplate#readme",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "dotenv-webpack": "^7.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "postcss": "^8.4.6",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.3.3",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
