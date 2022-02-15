@@ -7,6 +7,7 @@ function component() {
   element.classList.add('hello');
   const myIcon = new Image();
   myIcon.src = img;
+  myIcon.title = "test";
   element.appendChild(myIcon)
   return element; 
 }
